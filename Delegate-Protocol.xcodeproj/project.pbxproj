@@ -14,6 +14,8 @@
 		28A347FD2194060C001B6250 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A347FB2194060C001B6250 /* LaunchScreen.storyboard */; };
 		28A348082194060E001B6250 /* Delegate_ProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A348072194060E001B6250 /* Delegate_ProtocolTests.swift */; };
 		28A348132194060E001B6250 /* Delegate_ProtocolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A348122194060E001B6250 /* Delegate_ProtocolUITests.swift */; };
+		28A3482121940632001B6250 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A3482021940632001B6250 /* SecondVC.swift */; };
+		28A3482321940646001B6250 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A3482221940646001B6250 /* FirstVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		28A3480E2194060E001B6250 /* Delegate-ProtocolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Delegate-ProtocolUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28A348122194060E001B6250 /* Delegate_ProtocolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegate_ProtocolUITests.swift; sourceTree = "<group>"; };
 		28A348142194060E001B6250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28A3482021940632001B6250 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		28A3482221940646001B6250 /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				28A347F92194060C001B6250 /* Assets.xcassets */,
 				28A347FB2194060C001B6250 /* LaunchScreen.storyboard */,
 				28A347FE2194060C001B6250 /* Info.plist */,
+				28A3482221940646001B6250 /* FirstVC.swift */,
+				28A3482021940632001B6250 /* SecondVC.swift */,
 			);
 			path = "Delegate-Protocol";
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				28A347F5219405FF001B6250 /* ViewController.swift in Sources */,
+				28A3482321940646001B6250 /* FirstVC.swift in Sources */,
+				28A3482121940632001B6250 /* SecondVC.swift in Sources */,
 				28A347F3219405FF001B6250 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
